@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../src/fonts/Roboto-Black.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../src/fonts/Roboto-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("../src/fonts/Roboto-Italic.ttf") format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    /*text-align: center;*/
+    color: #ffffff;
+    background-color: #000000;
+    /**/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                not supported by any browser */
+
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+}
+header, footer{
+    height: 120px;
+    width:100%;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHgA8AMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIEAwf/xAAaEAEBAQEBAQEAAAAAAAAAAAAAARExQQIh/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAECAwQFBv/EABkRAQEBAQEBAAAAAAAAAAAAAAABEQISMf/aAAwDAQACEQMRAD8A+SaNGp9Z6c2HQgNCQVGhaLUKWmdASdNAhFpxCqi1NoQqTO0BJIoCSAQKSAik0AUhlYqBmtM3rPo4KKVWVN3oLXuemJQWjQgtQ0K1aNFpegQtGlpkWipHo0gk6FUkm0BJAJJEEiiGjAUVgZRsDKw4Kxet3gZdRTIpwVlTdq1lPV1k0NC09BGrQNBFo1Fp4dCCdCSoLQUCQSSACKOBJEEEQAgUVArLVFZ1TNgrTNY9GKy0GVN06tZ1O/WbWgIaEQi00gi0EJDQkgNBSQChBMVFKKhGFSE4QRSsDNBz9H11NgZoaHrOw2RTRWPSmfoGhjVx7jUnVrMxBaNCSBaCEhppBFoKUQ0Igw5SKRiytOGRQrhAorgCKUBYzetCpoYo9aoZ02fpmtUVj1FM3rNaoYVWvRBNUHUEYKCIHQkDiSQ0zEIRpFLwxUJRqCRqNIlY0C0gRSXISBVUAzWmamhmimisulRmg0Vl0oUJVhfpwpI9GJJHpJJGEQgZSQNQiEyp8MHiioluGD54Y0iWolE0gJCaRKSVMxWaaKmhmimisulRmimisqplU0Vj0cSSSaISgUkAkkYRSMKFIyp8U4UqJa+eGJNIkmBNIGkkuJqFSMQUUJNUKzSmdNmipMulCihMacf/2Q==);
+    padding: 0px;
+}
+
+main{
+    display: inline-block;
+    max-width: 680px;
+    text-align: left;
+    margin-left: 30px;
+}
+nav{
+    display: inline-block;
+    vertical-align: top;
+    max-width:320px ;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+div{    
+    margin: 20px;
+}
+a{
+    font-size:18px;
+    margin: 20px;
+    display: block;
+}
+a:hover{
+    color:rgb(89, 89, 221)
+}
+#html{
+    color: #100848;
+}
+
+#js{
+    color: #403d08;
+}
+#nodejs{
+    color: #043c10;
+}
